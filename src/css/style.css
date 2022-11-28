@@ -1,0 +1,142 @@
+ body{
+    font-family: 'Roboto Light'; 
+ }
+ 
+ header{
+    font-size:30px;
+    color:rgb(153, 153, 153);
+    width:1000px;
+    margin:auto;
+    margin-bottom:20px;
+ }
+ header #title{
+    font-family: 'Roboto'; 
+    font-weight:900;
+     font-size:60px;
+     font-style:italic;
+     color:#F3A32A;
+     margin-right:40px;     
+     display:inline;
+ }
+    #container{
+    box-sizing: border-box;
+    
+    font-size:16px;
+    width:1000px;
+    background:silver;
+    margin:auto;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    align-content: flex-start;
+    height:700px;
+    }
+
+#menu{ 
+   box-sizing: border-box; 
+    background:white;      
+    padding:10px;    
+    
+    }
+#menu ul{
+    padding:0px;
+    margin:0px;
+    }
+
+#menu li{
+    position:relative;     
+    box-sizing: border-box;
+    background:#3CB4CB;
+    background:#F5F5F5;
+    width:300px;
+    height:40px;  
+    padding:10px;
+    padding-left:40px;
+    margin-bottom:10px;
+    list-style: none;
+    }
+
+#menu li:hover{
+    background:#E5E5E5;       
+}
+
+#menu i{
+    position:absolute;
+    top:0px;
+    left:0px;
+    color:white;
+    padding:5px;
+    text-align:center;
+    width:20px;
+    height:20px;       
+}
+
+#image{
+    position:relative;
+    }
+
+#image i{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    color:white;
+    padding:5px;
+    text-align:center;
+    width:20px;
+    height:20px;       
+}
+
+.my-lightblue{
+    background:#3CB4CB;        
+}
+.my-orange{
+    background:#F3A32A;
+}
+
+.my-green{
+    background: #82BF6E;       
+}
+
+.my-red{
+    background:#E94858;
+}
+
+.my-darkblue{
+    background:#16434B;
+}
+
+#contenu{       
+    padding:20px;       
+    background:#F5F5F5;     
+    background:white;  
+    border-left:1px solid #E5E5E5;
+    flex:1 0 0;
+    overflow:hidden;
+}
+#titre{
+    font-size:40px;
+    margin-bottom:10px;
+    margin-left:60px;
+}
+#introduction{
+    font-size:20px;
+    margin-bottom:20px;
+    margin-left:60px;
+}
+#image{        
+    margin-bottom:30px;
+}
+#description{
+    margin-bottom:30px;    
+    margin-left:60px;  
+}
+#reserver{
+    border: 1px solid silver;
+    padding:10px;     
+    display:block;   
+    margin-left:60px;   
+}
+#reserver:hover{
+    border: 1px solid #3CB4CB;         
+}
